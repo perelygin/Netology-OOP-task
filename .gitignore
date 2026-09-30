@@ -1,0 +1,24 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# IDE (PyCharm)
+.idea/
+*.iml
+
+# Кэши и временные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Файлы сборки
+build/
+dist/
+*.egg-info/
+
+# Локальные конфиги, которые не надо коммитить
+.env
+.DS_Store
+Thumbs.db
